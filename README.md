@@ -25,6 +25,17 @@ git remote add origin https://github.com/user/repo.git
 
 git remote -v
 # Verify new remote
-origin  https://github.com/user/repo.git (fetch)
-origin  https://github.com/user/repo.git (push)
+
+Removing Remotes
+
+If you want to remove a remote for some reason – you’ve moved the server or are no longer using a particular mirror, or perhaps a contributor isn’t contributing anymore – you can either use git remote remove or git remote rm:
+
+$ git remote remove paul
+$ git remote
+origin
+
+Once you delete the reference to a remote this way, all remote-tracking branches and configuration settings associated with that remote are also deleted.
+
+git pull origin master
+
 
