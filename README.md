@@ -8,7 +8,7 @@ D -- deletion was not added to the git in the path of the file
 F - forced operation
 
 
-Managing Remotes / Adding a remote
+<h2>Managing Remotes / Adding a remote</h2>
 Adding a remote
 
 To add a new remote, use the git remote add command on the terminal, in the directory your repository is stored at.
@@ -21,12 +21,12 @@ The git remote add command takes two arguments:
 For example:
 
 git remote add origin https://github.com/user/repo.git
-# Set a new remote
+Set a new remote
 
 git remote -v
-# Verify new remote
+Verify new remote
 
-Removing Remotes
+<h2>Removing Remotes</h2>
 
 If you want to remove a remote for some reason – you’ve moved the server or are no longer using a particular mirror, or perhaps a contributor isn’t contributing anymore – you can either use git remote remove or git remote rm:
 
@@ -38,7 +38,7 @@ Once you delete the reference to a remote this way, all remote-tracking branches
 
 git pull origin master
 
-How to remove a directory from git repository?
+<h2>How to remove a directory from git repository?</h2
 
 git rm -rf folder_name </br>
 git commit -m "your commit" </br>
