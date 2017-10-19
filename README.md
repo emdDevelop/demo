@@ -40,8 +40,8 @@ git pull origin master
 
 How to remove a directory from git repository?
 
-git rm -rf folder_name
-git commit -m "your commit"
+git rm -rf folder_name </br>
+git commit -m "your commit" </br>
 git push origin master
 
 
