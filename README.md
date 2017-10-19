@@ -30,7 +30,7 @@ Removing Remotes
 
 If you want to remove a remote for some reason – you’ve moved the server or are no longer using a particular mirror, or perhaps a contributor isn’t contributing anymore – you can either use git remote remove or git remote rm:
 
-$ git remote remove paul
+$ git remote remove paul</br>
 $ git remote
 origin
 
