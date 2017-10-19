@@ -38,4 +38,10 @@ Once you delete the reference to a remote this way, all remote-tracking branches
 
 git pull origin master
 
+How to remove a directory from git repository?
+
+git rm -rf folder_name
+git commit -m "your commit"
+git push origin master
+
 
