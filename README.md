@@ -44,4 +44,10 @@ git rm -rf folder_name </br>
 git commit -m "your commit" </br>
 git push origin master
 
+<h2>return to commit</h2>
+git log
+git reset --hard ABCDE
+git push origin master
+
+
 
