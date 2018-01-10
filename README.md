@@ -45,8 +45,8 @@ git commit -m "your commit" </br>
 git push origin master
 
 <h2>return to commit</h2>
-git log
-git reset --hard ABCDE
+git log</br>
+git reset --hard ABCDE</br>
 git push origin master
 
 
