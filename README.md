@@ -44,6 +44,20 @@ git rm -rf folder_name </br>
 git commit -m "your commit" </br>
 git push origin master
 
+<h2>To remove folder/directory only from git repository and not from the local try 3 simple commands.</h2>
+Steps to remove directory</br>
+
+git rm -r --cached FolderName</br>
+git commit -m "Removed folder from repository"</br>
+git push origin master</br>
+Steps to ignore that folder in next commits</br>
+
+To ignore that folder from next commits make one file in root named .gitignore and put that folders name into it. You can put as many as you want</br>
+
+.gitignore file will be look like this</br>
+
+/FolderName</br>
+
 <h2>return to commit</h2>
 git log</br>
 git reset --hard ABCDE</br>
